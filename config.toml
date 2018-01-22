@@ -1,4 +1,6 @@
-baseURL = "/"
+baseURL = "https://aim-datamining.github.io"
+publishDir = "../aim-datamining.github.io"
+contentDir = "content"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
