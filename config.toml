@@ -1,5 +1,4 @@
 baseURL = "https://aim-datamining.github.io"
-publishDir = "../aim-datamining.github.io"
 contentDir = "content"
 
 languageCode = "en-us"
@@ -13,21 +12,6 @@ pygmentsStyle = "monokailight"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
-
-
-# [Languages]
-# [Languages.en]
-# title = "Documentation for Hugo docDock"
-# weight = 1
-# languageName = "English"
-# 
-# [Languages.fr]
-# title = "Documentation du thème docDock"
-# weight = 2
-# languageName = "Français"
-
-
-
 
 [params]
 editURL = "https://github.com/AIM-DataMining/aim-datamining.github.io"
