@@ -11,6 +11,7 @@ pygmentsStyle = "monokailight"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
+favicon = "static/favicon.ico"
 
 [params]
 editURL = "https://github.com/AIM-DataMining/happy-day-hugo-files/content/"
