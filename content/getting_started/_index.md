@@ -28,6 +28,26 @@ make all
 
 For further requirements take a look into [`requirements.txt`](https://github.com/ofesseler/happy-day-service/blob/master/requirements.txt)
 
+## Training
+
+To train a new model, one can easily download the Dataset from a Kaggle Challenge ["Facial Expression Recognition"](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data). The other option is to generate the data yourself and take a **lot** of photos from your friends. We had about 5000 photos of 15-20 Friends and it helped a lot to improve the modell. 
+
+Do the following steps to start training the `self-cnn` model
+
+```
+# change into happyday folder
+cd happy-day-service/happyday
+
+# preprocess data for scaling, folder structure, ... 
+python data_processing.py -s "/source/path" -d "/destination/path"
+
+# train model 
+python self_nn.py --path "/destination/path"
+```
+
+Then your machine will work a while and eventually show you the results. You can modify the parameters in the `self_cnn.py` file itself.
+
+
 
 # happy-day-app
 The app serves as a client and can be used to generate test data as wel
