@@ -1,20 +1,20 @@
-baseURL = "https://aim-datamining.github.io"
+baseURL = "https://aim-datamining.github.io/"
 contentDir = "content"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "HappyDay - Emotion recognition"
 theme = "docdock"
-#themesdir = "../.."
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
+favicon = "static/favicon.ico"
 
 [params]
-editURL = "https://github.com/AIM-DataMining/aim-datamining.github.io"
+editURL = "https://github.com/AIM-DataMining/happy-day-hugo-files/content/"
 showVisitedLinks = true # default is false
 themeStyle = "flex" # "original" or "flex" # default "flex"
 themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
