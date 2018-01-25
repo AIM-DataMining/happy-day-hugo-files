@@ -1,4 +1,6 @@
 # aim-datamining.github.io
+[![Build Status](https://travis-ci.org/AIM-DataMining/happy-day-hugo-files.svg?branch=master)](https://travis-ci.org/AIM-DataMining/happy-day-hugo-files)
+
 AIM DataMining Website
 
 # Getting started
