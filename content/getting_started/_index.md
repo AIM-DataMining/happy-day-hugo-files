@@ -19,6 +19,9 @@ git clone git@github.com:ofesseler/happy-day-service.git
 make all 
 ```
 
+If you want to be able to store the images on a webdav endpoint, you have to define the environment variables `DAV_USER` and `DAV_PASSWORD`.
+Otherwise you can't store data for retraining and collecting without issues. 
+
 ## Requirements
 - Python 3.x
 - Tensorflow 1.4
