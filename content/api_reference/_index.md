@@ -1,5 +1,5 @@
 +++
-title = "API Reference"
+title = "Web API Reference"
 weight = 20
 +++
 

@@ -6,8 +6,8 @@ Our vision of an application was to detect a users emotion by capturing a portra
 
 Happy Day consists of three repositories:
 
-- **happy-day-app**: Android app source code
-- **happy-day-service**: Flask webservice and CNN training cli
-- **happy-day-live**: Sources for live evaluation with your webcam, to show transitions between emotions
+- [**happy-day-app**](/getting_started/app): Android app source code
+- [**happy-day-service**](/getting_started/service): Flask webservice and CNN training cli
+- [**happy-day-live**](/getting_started/live): Sources for live evaluation with your webcam, to show transitions between emotions
 
 
